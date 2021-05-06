@@ -84,8 +84,9 @@ function decimal() {
 function clearAll() {
     firstOperand = null;
     secondOperand = null;
+    readySecondOperand = false;
     operator = null;
-    calculatorScreen.textContent = '0';
+    calculatorScreen.textContent = Number(0);
 }
 
 function clear() {
